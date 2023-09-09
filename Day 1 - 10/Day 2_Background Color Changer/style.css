@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --PALLATE-COLOR : #11103D;
+    --COLOR-ONE : #016A70;
+    --COLOR-TWO : #64CCC5;
+    --COLOR-THREE : #C8E4B2;
+    --COLOR-FOUR : #E25E3E;
+    --COLOR-FIVE : #FFB7B7;
+    --COLOR-SIX : #FFC436;
+    --COLOR-SEVEN : #504099;
+
+}
+
+body{
+    font-family: 'K2D', sans-serif;
+}
+.wrapper , .color-pallete{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wrapper{
+    flex-direction: column;
+}
+.color-pallete{
+    background-color: var(--PALLATE-COLOR);
+    height: 55px;
+    border-radius: 5px;
+    width: 300px;
+}
+.color-pallete div{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#color-one{
+    background-color: var(--COLOR-ONE);
+}
+#color-two{
+    background-color: var(--COLOR-TWO);
+}
+#color-three{
+    background-color: var(--COLOR-THREE);
+}
+#color-four{
+    background-color: var(--COLOR-FOUR);
+}
+#color-five{
+    background-color: var(--COLOR-FIVE);
+}
+#color-six{
+    background-color: var(--COLOR-SIX);
+}
+#color-seven{
+    background-color: var(--COLOR-SEVEN);
+}
