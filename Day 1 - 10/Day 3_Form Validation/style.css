@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --HEADING-COLOR : #337CCF;
+    --INPUT-COLOR : #1450A3;
+    --PLACEHOLDER-COLOR : #AED2FF;
+    --WHITE : #fff;
+    --BUTTON-COLOR : #FFB400;
+    --BUTTON-HOVER: #FFCE58;
+    --ERROR-COLOR : #F85730;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--HEADING-COLOR);
+}
+.container{
+    margin-top: 1em;
+    width: 300px;
+    height: 370px;
+    margin: 0 auto;
+    background-color: var(--WHITE);
+    padding: 1em 2em;
+}
+header{
+    color: var(--HEADING-COLOR)
+}
+h2::before{
+    content: '';
+    position: absolute;
+    width: 34px;
+    height: 2px;
+    background-color: var(--BUTTON-COLOR);
+    top: 44px;
+}
+h2::after{
+    content: 'SIGN IN';
+    position: absolute;
+    opacity: 20%;
+    font-size: 48px;
+    top: 40px;
+    left: 590px;
+    
+}
+form{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+input , button {
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+    padding: .7em .5em;
+    font-weight: bold;
+}
+input{
+    color: var(--WHITE);
+    background-color: var(--INPUT-COLOR);  
+}
+input::placeholder{
+    color: var(--PLACEHOLDER-COLOR);
+}
+button{
+    background-color: var(--BUTTON-COLOR);
+    color: var(--WHITE);
+}
+button:hover , 
+button:focus{
+    background-color: var(--BUTTON-HOVER);
+}
+.error{
+    color: var(--ERROR-COLOR);
+    font-size: 12px;
+    font-weight: 600;
+}
+.success{
+    color: #016A70;
+}
