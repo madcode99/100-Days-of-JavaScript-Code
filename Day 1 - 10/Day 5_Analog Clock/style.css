@@ -35,7 +35,7 @@ h2{
     height: 150px;
     /*to make the height and width responsive*/
     width: 150px;
-    background: url(clock.jpg) no-repeat;
+    background: url(img/clock.jpg) no-repeat;
     /*setting our background image*/
     background-size: 100%;
     border-radius: 50%;
