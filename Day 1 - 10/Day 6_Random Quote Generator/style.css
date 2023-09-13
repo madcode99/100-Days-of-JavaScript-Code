@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --DARK-BLUE : #11103D;
+    --GOLD : #FFB400;
+}
+body{
+    font-family: 'K2D', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+#quote-wrap{
+    background-color: var(--GOLD);
+    color: var(--DARK-BLUE);
+    width: 70vw;
+    height: 90px;
+    border-radius: 4px;
+    margin: 1em 0 ;
+    padding: 1em;
+}
+button{
+    padding: 9px 19px;
+    border-radius: 4px;
+    color: var(--GOLD);
+    background-color: var(--DARK-BLUE);
+    border: none;
+    font-family: 'K2D', sans-serif;
+}
+.Aurthor{
+    margin-top: 1em;
+    font-size: 12px;
+    font-weight: bold;
+}
