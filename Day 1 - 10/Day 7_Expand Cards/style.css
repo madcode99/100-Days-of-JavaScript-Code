@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70dvh;
+    gap: 2em;
+}
+.container div{
+    width: 120px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #000;
+    border-radius: 3px;
+    
+}
+.card1{
+    background-image: url(./img/card1.jpg) ;
+}
+.card2{
+    background-image: url(./img/card2.jpg) ;
+}
+.card3{
+    background-image: url(./img/card3.jpg) ;
+}
+.card4{
+    background-image: url(./img/card4.jpg) ;
+}
+.expand{
+    position: absolute;
+    top: 0;
+    display: block;
+    min-width: 450px;
+    min-height: 450px;
+}
+
