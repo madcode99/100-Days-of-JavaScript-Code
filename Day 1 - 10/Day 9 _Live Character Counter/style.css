@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #AED2FF;
+}
+body , textarea::placeholder , textarea{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+textarea{
+    border: none;
+    resize: none;
+    width: 400px;
+    height: 250px;
+    padding: 1em;
+    border-radius: 2px;
+}
+p{
+    font-size: 14px;
+    margin-top: .5em;
+}
