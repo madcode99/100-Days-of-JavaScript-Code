@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --PINK : #FA4C63;
+    --LIGHT-ORANGE : #F98760;
+    --INPUT-COLOR : #DAD8D8;
+    --FONT-COLOR : #4E4242;
+    --WHITE : #ffff;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    color: var(--FONT-COLOR);
+    display: grid;
+    place-content: center;
+}
+button , input{
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+    margin: .5em;
+}
+.container{
+    background: linear-gradient(251deg, var(--LIGHT-ORANGE) 3.16%, var(--PINK) 98.78%);
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    padding: 51px 85px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin-top: 2em;
+}
+.newsletter-div{
+    background-color: var(--WHITE);
+    border-radius: 20px;
+    padding: 2em;
+    display: none;
+    position: relative;
+}
+.newsletter-div button{
+    background-color: var(--PINK);
+    color: var(--WHITE);
+}
+input{
+    background-color: var(--INPUT-COLOR);
+    width: 180px;
+}
+h4{
+    text-transform: capitalize;
+}
+.xmark{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 4%;
+    right: 4%;
+}
+.active{
+    display: block;
+}
+.nonactive{
+    display: none;
+}
