@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0A0415;
+    color: #fff;
+}
+body,input,button{
+    font-family: 'Lexend', sans-serif;
+}
+.container{
+    display: grid;
+    place-content: center;
+    margin-top: 2em;
+    grid-gap: 1em
+}
+form{
+    display: flex;
+    margin: 1em 0;
+}
+button , input{
+    border: none;
+    border-radius: 2px;
+}
+input{
+    padding: 1em;
+    width: 255px;
+    color: #fff;
+    background-color: #2B1259;
+}
+input::placeholder{
+    color: #B9AAD6;
+}
+button{
+    padding: 1em;
+    color: #0A0415;
+    background-color: #B9AAD6;
+}
