@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #2A297E;
+    background-color: #AED2FF;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+#date-el{
+    background-color: rgba(51, 124, 207, 0.2);
+    border-radius: 12px;
+    margin-top: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.bold{
+    font-weight: 600;
+}
