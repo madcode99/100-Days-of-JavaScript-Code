@@ -1,12 +1,15 @@
 
 
-const play = document.getElementById('play')
-const pause = document.getElementById('pause')
+const btn = document.getElementById('btn')
 const video = document.querySelector('.video-container')
 
-play.addEventListener('click' , function(){
-    video.play()
+btn.addEventListener('click' , function(){
+    if(btn.innerHTML === 'play'){
+        btn.innerHTML = 'pause'
+        video.play()
+    }else{
+        btn.innerHTML = 'play'
+        video.pause()
+    }
 })
-pause.addEventListener('click' , function(){
-    video.pause()
-})
+
