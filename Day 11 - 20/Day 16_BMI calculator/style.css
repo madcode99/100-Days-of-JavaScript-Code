@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    background-color: #29296B;
+}
+.container{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #09091C;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border-radius: 4px;
+    margin-top: 3em;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1em;
+}
+form input, button{
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+}
+input{
+    background-color: #29296B;
+    color: #fff;
+    font-weight: 500;
+}
+input::placeholder{
+    color: #09091C;
+}
+button{
+    background-color: #FFB400;
+    color: #09091C;
+}
