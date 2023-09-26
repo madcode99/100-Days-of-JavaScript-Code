@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --WHITE : #fff;
+    --LIGHT-BLUE : #8ECAE6;
+    --DARK-BLUE-BG: #023047;
+    --BLUE : #219EBC;
+    --GOLD : #FB8500;
+}
+body{
+    background-color: var(--DARK-BLUE-BG);
+    color: var(--WHITE);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 300px;
+    padding: 1em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    padding-top: 1.5em;
+    align-self: flex-start;
+    
+    border-bottom: 2px solid var(--LIGHT-BLUE);
+    padding-bottom: 1em;
+}
+#date{
+    font-size: 12px;
+    margin-top: 1em;
+}
+header h2{
+    width: 200px;
+    font-size: 32px;
+    line-height: 40px;
+}
+.empty-msg{
+    text-align: center;
+    font-size: 14px;
+}
+.empty-list{
+    width: 170px;
+    height: 170px;
+}
+#add-new-item{
+    background-color: var(--GOLD);
+    font-size: 24px;
+    color: var(--DARK-BLUE-BG);
+    padding: 9px 9px;
+    line-height: 15px;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+#add-btn{
+    color: var(--DARK-BLUE-BG);
+    background-color: var(--GOLD);
+    border: none;
+    border-radius: 2px;
+    padding: 9px 12px ;
+    font-weight: 600;
+    align-self: flex-end;
+    margin-right: 1.4em;
+}
+textarea{
+    width: 90%;
+    margin: 1em;
+    height: 70px;
+    padding: 1em;
+    color: var(--DARK-BLUE-BG);
+    background-color: var(--LIGHT-BLUE);
+    font-weight: 600;
+}
+textarea::placeholder{
+    color: var(--BLUE);
+}
+input{
+    margin-left: 1em;
+}
+.wrap{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+    font-size: 14px;
+    background-color: var(--BLUE);
+    padding: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.container {
+    position: relative;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    background-color: var(--BLUE);
+    border: 2px solid var(--WHITE);
+  }
+  .container:hover input ~ .checkmark {
+    background-color: var(--DARK-BLUE-BG);
+  }
+  .container input:checked ~ .checkmark {
+    background-color: var(--WHITE);
+  }
