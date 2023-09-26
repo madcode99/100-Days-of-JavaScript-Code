@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Changer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Change your img css using javaScript</h2>
+        <form action="" id="form-el">
+          <label for="width">Border-Radius : </label> 
+          <input type="range" id="border-radius" name="border-radius" min="0" max="100" data-sizing="px" value="5">
+          <label for="blur">blur :</label>
+          <input id="blur" type="range" name="blur" min="10" max="25" value="0" data-sizing="px"/>
+        </form>
+        <div class="img-div">
+            <img src="./img/img.jpg" alt="" id="img-el">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend', sans-serif;
+}
+:root {
+    --blur: 0px;
+    --width: 60%;
+    --border-radius: 5px;
+  }
+.container{
+    background-color: #272722;
+    color: #efefef;
+    text-align: center;
+}
+h2{
+    padding: 1em ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .4em;
+    background-color: #05111f;
+    padding: 1em;
+}
+img{
+    width: 50%;
+    margin-top: 2em;
+    height: 80%;
+    filter: blur(var(--blur));
+    background-color: var(--base);
+    border-radius: var(--border-radius);
+
+}
