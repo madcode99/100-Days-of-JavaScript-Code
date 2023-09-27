@@ -1,0 +1,26 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oxanium', cursive;
+    background-color: #090a14;
+    color: #efefef;
+}
+.container{
+    text-align: center;
+    margin-top: 3em;
+}
+#count-el{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    border: 1px solid #efefef;
+    padding: 1em;
+}
+#count-el p{
+    font-size: 14px;
+}
