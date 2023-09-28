@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #04061a;
+    color: #fff;
+    font-family: sans-serif;
+}
+p{
+    text-align: center;
+    margin-top: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2;
+    font-size: 1.4rem;
+}
+form{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .7em;
+}
+
+input , button{
+    border-radius: 4px ;
+    border: none;
+    padding: 1em;
+    width: 330px;
+    font-family: sans-serif;
+}
+button{
+    background-color: #2330b9;
+    color: #fff;
+}
+.heading::after{
+    content: 'PALINDROME CHECKER';
+    position: absolute;
+    color: #2b39d175;
+    font-weight: bolder;
+    z-index: -1;
+    left: 40%;
+    
+}
