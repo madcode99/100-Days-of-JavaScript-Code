@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend', sans-serif;
+    color: rgb(52, 238, 207);
+    background-color: rgb(6, 14, 20);
+}
+h1{
+    text-align: center;
+    margin-top: 1em;
+}
+.container{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .4em;
+}
+input , button{
+    padding: 1em;
+    border: 2px solid rgb(52, 238, 207);
+    border-radius: 5px;   
+    background-color: transparent;
+    font-family: 'Lexend', sans-serif;
+    color: rgb(52, 238, 207);
+}
+input{
+    width: 80px;
+    height: 80px;
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+button{
+    margin-top: .4em;
+
+}
+p{
+    margin: .4em 0;
+}
