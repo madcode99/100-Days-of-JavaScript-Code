@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word-Guess-Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Word-Guess-Game</h2>
+        <div id="btn-div">
+        </div>
+        <label for="category">Choose a Category : </label>
+        <select name="category" id="category-el">
+            <option value="">Choose</option>
+            <option value="film">Film</option>
+            <option value="food">Food</option>
+            <option value="place">Place</option>
+        </select>
+        <div ><p id="guess"></p></div>
+        <p id="msg">You have 10 guesses</p>
+        <a href="javascript:window.location.reload(true)">Restart</a>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

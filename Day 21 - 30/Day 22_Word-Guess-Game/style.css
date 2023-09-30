@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 6, 26);
+    
+}
+body , button , select{
+    font-family: 'Inter', sans-serif;
+    color: #efefef;
+}
+.container{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+button{
+    padding: 1em;
+    margin: .4em .2em;
+    font-weight: bolder;
+    background-color: rgb(28, 17, 71);
+    border: none;
+    border-radius: 2px;
+}
+select{
+    width: 300px;
+    padding: 1em;
+    background-color: rgb(28, 17, 71);
+    border: none;
+    border-radius: 2px;
+}
+#guess{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: #efefef;
+    border: 1px solid rgb(28, 17, 71);
+    padding: 1em;
+    border-radius: 4px;
+}
