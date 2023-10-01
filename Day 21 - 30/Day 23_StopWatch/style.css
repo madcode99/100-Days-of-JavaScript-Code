@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+    padding: 3em 0;
+    background-color:  rgb(74, 14, 131);
+}
+button{
+    padding: .6em 1em;
+    border: none;
+    background-color: rgb(185, 118, 248);
+    color: rgb(74, 14, 131);
+}
+span{
+    font-size: 34px;
+}
+#time{
+    border: 1px solid #fff;
+    padding: 1em;
+}
