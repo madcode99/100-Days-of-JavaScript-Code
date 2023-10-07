@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    height: 100dvh;
+    background-color: #76d2f7;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.card-item{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.2s; 
+    text-align: center;
+    padding: 1em;
+}
