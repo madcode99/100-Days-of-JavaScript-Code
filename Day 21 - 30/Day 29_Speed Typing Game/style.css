@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body , .quote-input{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(9, 3, 31);
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80dvh;
+    gap: 1.2em;
+}
+.container{
+    background-color: rgb(141, 117, 230);
+    padding: 1em;
+    border-radius: 4px;
+    min-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+.quote-input{
+    border: none;
+    border-radius: 4px;
+    width: 90%;
+    height: 120px;
+    margin-bottom: 1em;
+    padding: .4em;
+    resize: none;
+    font-size: 1rem;
+}
+.timer{
+    font-size: 24px;
+    color: rgb(141, 117, 230);
+}
+.quote-input , .quote-txt{
+    color: rgb(9, 3, 31);
+}
+.quote-txt{
+    margin-left: .7em;
+}
+.correct {
+    color: rgb(37, 187, 94);
+  }
+  
+  .incorrect {
+    color: rgb(240, 53, 46);
+    text-decoration: underline;
+  }
