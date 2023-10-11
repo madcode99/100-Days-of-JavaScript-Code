@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(166, 203, 235);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50dvh;
+    gap: 3em;
+}
+.eyes{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.eyes::before{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 7px solid green;
+    top: 30%;
+    left: 25px;
+
+}
