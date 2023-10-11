@@ -31,5 +31,5 @@ body{
     border: 7px solid green;
     top: 30%;
     left: 25px;
-
+    transform: translate(-20%, -20%);
 }
