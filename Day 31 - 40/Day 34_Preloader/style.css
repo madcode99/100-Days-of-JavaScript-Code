@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Coda', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+.preloader{
+    width: 100dvw;
+    height: 100dvh;
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+p{
+    color: #fff;
+}
+.load{
+    width: 50px;
+    height: 1px;
+    background-color: #efefef;
+    border-top-color: transparent;
+    animation: scale 1s linear infinite;
+}
+@keyframes spin {
+    100% {
+      transform: scale(100px);
+    }
+  }
