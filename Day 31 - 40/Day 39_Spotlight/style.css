@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url('img/city.jpg') no-repeat;
+    background-position: center;
+    color: #fff;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+}
+h1{
+    text-shadow: 5px 5px 5px #000;
+    text-align: center;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+}
+.spotlight{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(
+        circle,
+        transparent 160px,
+        rgba(0, 0, 0, 0.85) 200px
+    );
+}
